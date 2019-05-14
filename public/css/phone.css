@@ -1,0 +1,560 @@
+/* Mở đầu đoạn CSS HOTLINE */
+@media screen and (max-width:680px) {
+	.call-now-button {
+		display: flex!important;
+		background: transparent
+	}
+	call-now-button .call-text {
+		display: none
+	}
+}
+
+.quick-call-button {
+	display: none
+}
+
+.call-now-button {
+	display: none;
+	z-index: 9999;
+	clear: both;
+	margin: 0 auto;
+	position: fixed;
+	border-radius: 50px
+}
+
+.call-now-button div {
+	display: flex
+}
+
+.call-now-button div p {
+	color: #fff;
+	display: table;
+	padding: 10px;
+	border-radius: 21px;
+	height: 34px;
+	line-height: 14px;
+	font-size: 14px;
+	margin: 8px 5px 8px 50px;
+	text-transform: uppercase;
+	font-weight: normal;
+	text-align: center;
+	box-sizing: content-box;
+	text-decoration: none!important;
+	box-sizing: border-box
+}
+
+.quick-alo-ph-circle.active {
+	width: 130px;
+	height: 130px;
+	top: -40px;
+	left: -40px;
+	position: absolute;
+	background-color: transparent;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	border: 2px solid rgba(30, 30, 30, .4);
+	opacity: 1;
+	-webkit-animation: quick-alo-circle-anim 1.2s infinite ease-in-out;
+	-moz-animation: quick-alo-circle-anim 1.2s infinite ease-in-out;
+	-ms-animation: quick-alo-circle-anim 1.2s infinite ease-in-out;
+	-o-animation: quick-alo-circle-anim 1.2s infinite ease-in-out;
+	animation: quick-alo-circle-anim 1.2s infinite ease-in-out;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+	-webkit-transform-origin: 50% 50%;
+	-moz-transform-origin: 50% 50%;
+	-ms-transform-origin: 50% 50%;
+	-o-transform-origin: 50% 50%;
+	transform-origin: 50% 50%
+}
+
+.quick-alo-ph-circle-fill.active {
+	width: 80px;
+	height: 80px;
+	top: -15px;
+	left: -15px;
+	position: absolute;
+	background-color: #000;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	border: 2px solid transparent;
+	opacity: 1;
+	-webkit-animation: quick-alo-circle-fill-anim 2.3s infinite ease-in-out;
+	-moz-animation: quick-alo-circle-fill-anim 2.3s infinite ease-in-out;
+	-ms-animation: quick-alo-circle-fill-anim 2.3s infinite ease-in-out;
+	-o-animation: quick-alo-circle-fill-anim 2.3s infinite ease-in-out;
+	animation: quick-alo-circle-fill-anim 2.3s infinite ease-in-out;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+	-webkit-transform-origin: 50% 50%;
+	-moz-transform-origin: 50% 50%;
+	-ms-transform-origin: 50% 50%;
+	-o-transform-origin: 50% 50%;
+	transform-origin: 50% 50%
+}
+
+.quick-alo-ph-img-circle.shake {
+	width: 50px;
+	height: 50px;
+	top: 0;
+	left: 0;
+	position: absolute;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	border: 2px solid transparent;
+	opacity: 1;
+	background: url(https://img.icons8.com/ios-glyphs/36/000000/phone.png) no-repeat center center;
+	-webkit-animation: quick-alo-circle-img-anim 1s infinite ease-in-out;
+	-moz-animation: quick-alo-circle-img-anim 1s infinite ease-in-out;
+	-ms-animation: quick-alo-circle-img-anim 1s infinite ease-in-out;
+	-o-animation: quick-alo-circle-img-anim 1s infinite ease-in-out;
+	animation: quick-alo-circle-img-anim 1s infinite ease-in-out;
+	-webkit-transform-origin: 50% 50%;
+	-moz-transform-origin: 50% 50%;
+	-ms-transform-origin: 50% 50%;
+	-o-transform-origin: 50% 50%;
+	transform-origin: 50% 50%
+}
+
+.quick-alo-phone-img-circle.shake {
+	width: 50px;
+	height: 50px;
+	top: 0;
+	left: 0;
+	position: absolute;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	border: 2px solid transparent;
+	opacity: 1;
+	-webkit-animation: quick-alo-circle-img-anim 1s infinite ease-in-out;
+	-moz-animation: quick-alo-circle-img-anim 1s infinite ease-in-out;
+	-ms-animation: quick-alo-circle-img-anim 1s infinite ease-in-out;
+	-o-animation: quick-alo-circle-img-anim 1s infinite ease-in-out;
+	animation: quick-alo-circle-img-anim 1s infinite ease-in-out;
+	-webkit-transform-origin: 50% 50%;
+	-moz-transform-origin: 50% 50%;
+	-ms-transform-origin: 50% 50%;
+	-o-transform-origin: 50% 50%;
+	transform-origin: 50% 50%
+}
+
+.quick-alo-ph-img-circle.notshake {
+	width: 50px;
+	height: 50px;
+	top: 0;
+	left: 0;
+	position: absolute;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	border: 2px solid transparent;
+	opacity: 1;
+	-webkit-transform-origin: 50% 50%;
+	-moz-transform-origin: 50% 50%;
+	-ms-transform-origin: 50% 50%;
+	-o-transform-origin: 50% 50%;
+	transform-origin: 50% 50%
+}
+
+.quick-alo-phone-img-circle.notshake {
+	width: 50px;
+	height: 50px;
+	top: 0;
+	left: 0;
+	position: absolute;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	border: 2px solid transparent;
+	opacity: 1;
+	-webkit-transform-origin: 50% 50%;
+	-moz-transform-origin: 50% 50%;
+	-ms-transform-origin: 50% 50%;
+	-o-transform-origin: 50% 50%;
+	transform-origin: 50% 50%
+}
+
+@media screen and (max-width: 8600px) {
+	.call-now-button {
+		display: flex !important;
+		/* background: #03db39; */
+	}
+	.quick-call-button {
+		display: block !important;
+	}
+}
+
+.call-now-button {
+	bottom: 25px;
+}
+
+.call-now-button {
+	left: 10px;
+}
+
+.call-now-button {
+	/* background: #03db39; */
+}
+
+.call-now-button div a .quick-alo-ph-img-circle,
+.call-now-button div a .quick-alo-phone-img-circle {
+	background-color: #ff8800;
+}
+
+.call-now-button .call-text {
+	font-weight: 500;
+	font-family: 'oswald';
+	color: black;
+}
+
+@-moz-keyframes quick-alo-circle-anim {
+	0% {
+		-moz-transform: rotate(0) scale(.5) skew(1deg);
+		opacity: .1;
+		-moz-opacity: .1;
+		-webkit-opacity: .1;
+		-o-opacity: .1
+	}
+	30% {
+		-moz-transform: rotate(0) scale(.7) skew(1deg);
+		opacity: .5;
+		-moz-opacity: .5;
+		-webkit-opacity: .5;
+		-o-opacity: .5
+	}
+	100% {
+		-moz-transform: rotate(0) scale(1) skew(1deg);
+		opacity: .6;
+		-moz-opacity: .6;
+		-webkit-opacity: .6;
+		-o-opacity: .1
+	}
+}
+
+@-webkit-keyframes quick-alo-circle-anim {
+	0% {
+		-webkit-transform: rotate(0) scale(.5) skew(1deg);
+		-webkit-opacity: .1
+	}
+	30% {
+		-webkit-transform: rotate(0) scale(.7) skew(1deg);
+		-webkit-opacity: .5
+	}
+	100% {
+		-webkit-transform: rotate(0) scale(1) skew(1deg);
+		-webkit-opacity: .1
+	}
+}
+
+@-o-keyframes quick-alo-circle-anim {
+	0% {
+		-o-transform: rotate(0) kscale(.5) skew(1deg);
+		-o-opacity: .1
+	}
+	30% {
+		-o-transform: rotate(0) scale(.7) skew(1deg);
+		-o-opacity: .5
+	}
+	100% {
+		-o-transform: rotate(0) scale(1) skew(1deg);
+		-o-opacity: .1
+	}
+}
+
+@-moz-keyframes quick-alo-circle-fill-anim {
+	0% {
+		-moz-transform: rotate(0) scale(.7) skew(1deg);
+		opacity: .2
+	}
+	50% {
+		-moz-transform: rotate(0) -moz-scale(1) skew(1deg);
+		opacity: .2
+	}
+	100% {
+		-moz-transform: rotate(0) scale(.7) skew(1deg);
+		opacity: .2
+	}
+}
+
+@-webkit-keyframes quick-alo-circle-fill-anim {
+	0% {
+		-webkit-transform: rotate(0) scale(.7) skew(1deg);
+		opacity: .2
+	}
+	50% {
+		-webkit-transform: rotate(0) scale(1) skew(1deg);
+		opacity: .2
+	}
+	100% {
+		-webkit-transform: rotate(0) scale(.7) skew(1deg);
+		opacity: .2
+	}
+}
+
+@-o-keyframes quick-alo-circle-fill-anim {
+	0% {
+		-o-transform: rotate(0) scale(.7) skew(1deg);
+		opacity: .2
+	}
+	50% {
+		-o-transform: rotate(0) scale(1) skew(1deg);
+		opacity: .2
+	}
+	100% {
+		-o-transform: rotate(0) scale(.7) skew(1deg);
+		opacity: .2
+	}
+}
+
+@-moz-keyframes quick-alo-circle-img-anim {
+	10% {
+		transform: rotate(0) scale(1) skew(1deg)
+	}
+	10% {
+		-moz-transform: rotate(-25deg) scale(1) skew(1deg)
+	}
+	20% {
+		-moz-transform: rotate(25deg) scale(1) skew(1deg)
+	}
+	30% {
+		-moz-transform: rotate(-25deg) scale(1) skew(1deg)
+	}
+	40% {
+		-moz-transform: rotate(25deg) scale(1) skew(1deg)
+	}
+	50% {
+		-moz-transform: rotate(0) scale(1) skew(1deg)
+	}
+	100% {
+		-moz-transform: rotate(0) scale(1) skew(1deg)
+	}
+}
+
+@-webkit-keyframes quick-alo-circle-img-anim {
+	0% {
+		-webkit-transform: rotate(0) scale(1) skew(1deg)
+	}
+	10% {
+		-webkit-transform: rotate(-25deg) scale(1) skew(1deg)
+	}
+	20% {
+		-webkit-transform: rotate(25deg) scale(1) skew(1deg)
+	}
+	30% {
+		-webkit-transform: rotate(-25deg) scale(1) skew(1deg)
+	}
+	40% {
+		-webkit-transform: rotate(25deg) scale(1) skew(1deg)
+	}
+	50% {
+		-webkit-transform: rotate(0) scale(1) skew(1deg)
+	}
+	100% {
+		-webkit-transform: rotate(0) scale(1) skew(1deg)
+	}
+}
+
+@-o-keyframes quick-alo-circle-img-anim {
+	0% {
+		-o-transform: rotate(0) scale(1) skew(1deg)
+	}
+	10% {
+		-o-transform: rotate(-25deg) scale(1) skew(1deg)
+	}
+	20% {
+		-o-transform: rotate(25deg) scale(1) skew(1deg)
+	}
+	30% {
+		-o-transform: rotate(-25deg) scale(1) skew(1deg)
+	}
+	40% {
+		-o-transform: rotate(25deg) scale(1) skew(1deg)
+	}
+	50% {
+		-o-transform: rotate(0) scale(1) skew(1deg)
+	}
+	100% {
+		-o-transform: rotate(0) scale(1) skew(1deg)
+	}
+}
+/*******Custom**********/
+.background-primary {
+  background-color :#ff8800!important;
+}
+.background-secondary{
+  background-color :#002347!important;
+}
+.color-primary{
+  color:#ff8800!important;
+}
+.color-secondary{
+  color:#002347!important;
+}
+.text-with-background-opacity {
+    padding:20px;
+    position:relative;
+    background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+    background: rgba(204, 204, 204, 0.7);
+}
+.list-custom {
+  list-style: none;
+  margin: 0px;
+  padding: 0px; }
+.list-custom li a::before {
+    display: inline-block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    margin: .9rem 0 0 -1rem;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid #333;
+    content: '';
+}
+.list-custom li a {
+    display: block;
+    position: relative;
+    padding: .9rem 0 .8rem 2rem;
+    border-bottom: 1px solid #EDEDDE;
+    color: #7a7d82;
+    font-size: 1.1rem;
+}
+.tip.tip-hot {
+    background-color: #eb2771;
+}
+.tip {
+    display: inline-block;
+    position: relative;
+    margin: -2px 0 0 1rem;
+    padding: .3rem .4rem;
+    border-radius: .2rem;
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: uppercase;
+    vertical-align: middle;
+    z-index: 1;
+}
+.tip::before {
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    left: auto;
+    margin-top: -3px;
+    border: 3px solid transparent;
+    content: '';
+}
+.tip.tip-hot::before {
+    border-right-color: #eb2771;
+}
+.title_decor {
+    padding: 10px 25px;
+    margin-bottom: 20px;
+    background-color:#002347;
+    color: #ffffff;
+    text-align: center
+}
+.divider:after {
+      content: "";
+      display: block;
+      width: 60%;
+      height: 3px;
+      background-color:#ff8800;
+      opacity: 0.5;
+      margin: auto;
+      margin-top: 5px;
+      margin-bottom: 5px;
+}
+.price-service {
+    text-align: right;
+    color: #ff8800;
+    font-size: 18px;
+    font-weight: 400;
+}
+.price-tours {
+  background-color: #002347;
+  border: 2px solid #002347;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.price-service span{
+    font-size: 16px;
+    font-weight: 500;
+}
+.text-white{
+  color:#fff;
+}
+
+.entry-meta{
+  color:#444;
+}
+.entry-meta > span {
+  display: inline-block;
+  margin-right: 1.5rem;
+}
+.entry-meta i {
+  margin-right: .5rem;
+}
+.entry-meta i::before {
+  margin: 0;
+}
+
+.blog_item:after{
+      content: "";
+      display: block;
+      width: 90%;
+      height: 1px;
+      background-color:#ff8800;
+      opacity: 0.5;
+      margin: auto;
+      margin-top: 5px;
+      margin-bottom: 5px;
+}
+.sub-image {
+  background-color: #ddd;
+}
+.text-white-gray{
+  color:#ddd!important;
+}
+.text-strong{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.icon-custom{
+    color:#ff8800;
+    text-align:center;
+    font-size:50px;
+}
+.icon i {
+    text-align:center;
+}
+.text-with-divider{
+    color:#002347;
+    font-size:25px;
+}
+.text-with-divider:after {
+      content: "";
+      display: block;
+      width: 60%;
+      height: 3px;
+      background-color:#002347;
+      opacity: 0.5;
+      margin: auto;
+      margin-top: 5px;
+      margin-bottom: 5px;
+}
+.card-icon{
+    margin-top:10px;
+    height:100%;
+}
