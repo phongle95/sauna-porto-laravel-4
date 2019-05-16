@@ -66,9 +66,9 @@ $config['images'] = array(
 $config['backends'][] = array(
     'name'         => 'default',
     'adapter'      => 'local',
-    'baseUrl'      => 'http://127.0.0.1:8000/public/upload',
+    'baseUrl'      => 'http://mayxonghoi24h.com/public/upload',
     // http://127.0.0.1:8000/public/upload
-    // http://lysonvn.com/public/upload
+    // http://mayxonghoi24h.com/public/upload
 //  'root'         => '', // Can be used to explicitly set the CKFinder user files directory.
     'chmodFiles'   => 0777,
     'chmodFolders' => 0755,
