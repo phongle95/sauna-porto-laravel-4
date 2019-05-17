@@ -43,6 +43,15 @@
             "sameAs": ["https://www.facebook.com/mayxonghoitaidanang/"]
         }
     </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140299237-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-140299237-1');
+    </script>
 </head>
 
 <body>
@@ -194,7 +203,7 @@
                 <div class="container">
                     <nav class="main-nav">
                         <ul class="menu sf-arrows">
-                            <li class="active"><a href="{{ route('trangchu.pages.trangchu') }}">Trang Chủ</a></li>
+                            <li class="{{ request()->is(' ') ? 'active' : '' }}"><a href="{{ route('trangchu.pages.trangchu') }}">Trang Chủ</a></li>
                             <li>
                                 <a href="#" class="sf-with-ul">Danh Mục Sản Phẩm</a>
 
@@ -216,22 +225,22 @@
                                     <li><a href="{{ route('trangchu.pages.listproduct',['slug'=>str_slug('Phòng Xông Hơi Đá Muối Hymalaya'),'id'=>50]) }}">Phòng Xông Hơi Đá Muối Hymalaya</a></li>
                                 </ul>
                             </li>
-                            <li>
+                            <li class="{{ request()->is('gioi-thieu') ? 'active' : '' }}">
                                 <a href="{{ route('trangchu.pages.gioithieu') }}">giới thiệu</a>
                             </li>
-                            <li>
+                            <li class="{{ request()->is('san-pham') ? 'active' : '' }}">
                                 <a href="{{ route('trangchu.pages.sanpham') }}">sản phẩm</a>
                             </li>
-                            <li>
+                            <li class="{{ request()->is('cong-trinh') ? 'active' : '' }}">
                                     <a href="{{ route('trangchu.pages.congtrinh') }}">công trình</a>
                                 </li>
 
-                                <li>
+                                <li class="{{ request()->is('tuyen-dung') ? 'active' : '' }}">
                                     <a href="{{ route('trangchu.pages.tuyendung') }}">tuyển dụng</a>
                                 </li>
 
-                            <li class="float-right"><a href="{{ route('trangchu.pages.lienhe') }}">liên hệ</a></li>
-                            <li class="float-right"><a href="{{ route('trangchu.pages.tintuc') }}">tin tức</a></li>
+                            <li class="float-right {{ request()->is('lien-he') ? 'active' : '' }}"><a href="{{ route('trangchu.pages.lienhe') }}">liên hệ</a></li>
+                            <li class="float-right {{ request()->is('tin-tuc') ? 'active' : '' }}"><a href="{{ route('trangchu.pages.tintuc') }}">tin tức</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -251,8 +260,8 @@
         </a>
         </div>
         </div>
-        <div id="fb-root"></div>
-        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.2&appId=453100318560380&autoLogAppEvents=1"></script>
+        {{--  <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.2&appId=453100318560380&autoLogAppEvents=1"></script>  --}}
 
         <footer class="footer">
             <div class="footer-middle">
@@ -292,7 +301,7 @@
                                 <h4 class="widget-title">Đăng Ký</h4>
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <p>Đăng ký ngay để nhận được tin khuyến mãi từ Mayxonghoi24h</p>
+                                        <p>Đăng ký ngay để chúng tôi cập nhập tin khuyến mãi mới nhất từ Mayxonghoi24h cho bạn !</p>
                                     </div><!-- End .col-md-6 -->
 
                                     <div class="col-md-6">
@@ -417,29 +426,7 @@
     </div>
     <!-- End .mobile-menu-container -->
 
-    <div class="newsletter-popup mfp-hide" id="newsletter-popup-form" style="background-image: url(sauna/assets/images/nvtv.jpg)">
-        <div class="newsletter-popup-content">
-            <img src="sauna/assets/images/logovinass.png" alt="Logo" class="logo-newsletter">
-            <h2>ĐĂNG KÝ NGAY</h2>
-            <p style="color:black;font-weight:600">Đăng ký ngay để nhận được thông báo khuyến mãi của Vinass Sauna !</p>
-            <form action="#">
-                <div class="input-group">
-                    <input type="email" class="form-control" id="newsletter-email" name="newsletter-email" placeholder="Nhập địa chỉ email" required>
-                    <input type="submit" class="btn" value="Đăng Ký!">
-                </div>
-                <!-- End .from-group -->
-            </form>
-            <div class="newsletter-subscribe">
-                <div class="checkbox">
-                    <label>
-                        <input type="checkbox" value="1"> Không hiện mục này nữa
-                    </label>
-                </div>
-            </div>
-        </div>
-        <!-- End .newsletter-popup-content -->
-    </div>
-    <!-- End .newsletter-popup -->
+
 
     <a id="scroll-top" href="#top" title="Top" role="button"><i class="icon-angle-up"></i></a>
 

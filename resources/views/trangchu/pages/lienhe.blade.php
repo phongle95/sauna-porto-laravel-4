@@ -69,14 +69,10 @@
                     </div>
                     <div>
                         <i class="icon-mail-alt"></i>
-                        <p><a href="mailto:#">porto@gmail.com</a></p>
-                        <p><a href="mailto:#">porto@portotemplate.com</a></p>
+                        <p><a href="mailto:#">lehongphongcntt@gmail.com</a></p>
+                        <p><a href="mailto:#">phongvippro1995@gmail.com</a></p>
                     </div>
-                    <div>
-                        <i class="icon-skype"></i>
-                        <p>porto_skype</p>
-                        <p>porto_template</p>
-                    </div>
+
                 </div>
                 <!-- End .contact-info -->
             </div>

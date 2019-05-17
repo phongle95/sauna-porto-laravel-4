@@ -21,8 +21,8 @@
 
                             </div><!-- End .entry-slider -->
                         </div><!-- End .entry-media -->
-                        <div class="fb-like" data-href="{{ route('trangchu.chitiet.news',['slug'=>str_slug($chitiet->tieuDe),'id'=>$chitiet->id,'ma'=>$chitiet->maLoaiTin]) }}" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
-                        <br>  <br>
+                        {{--  <div class="fb-like" data-href="{{ route('trangchu.chitiet.news',['slug'=>str_slug($chitiet->tieuDe),'id'=>$chitiet->id,'ma'=>$chitiet->maLoaiTin]) }}" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+                        <br>  <br>  --}}
                         <div class="entry-body">
                             <div class="entry-date">
                                 <span class="day">{{ date("d", strtotime($chitiet->date)) }}</span>
@@ -43,10 +43,10 @@
                                     {!! $chitiet->noiDung !!}
                             </div><!-- End .entry-content -->
 
-                            <div class="entry-share">
+                            {{--  <div class="entry-share">
 
                                 </div><!-- End .entry-share -->
-                                <div class="fb-comments" data-href="{{ route('trangchu.chitiet.news',['slug'=>str_slug($chitiet->tieuDe),'id'=>$chitiet->id,'ma'=>$chitiet->maLoaiTin]) }}" data-numposts="5"></div>
+                                <div class="fb-comments" data-href="{{ route('trangchu.chitiet.news',['slug'=>str_slug($chitiet->tieuDe),'id'=>$chitiet->id,'ma'=>$chitiet->maLoaiTin]) }}" data-numposts="5"></div>  --}}
 
 
                         </div><!-- End .entry-body -->

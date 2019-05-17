@@ -451,6 +451,56 @@
 
             <div class="mb-5"></div>
             <!-- margin -->
+            <div class="testimonials-section">
+                <div class="container">
+                    <h2 class="subtitle text-center">KHÁCH HÀNG PHẢN HỒI</h2>
+
+                    <div class="testimonials-carousel owl-carousel owl-theme">
+                        <div class="testimonial">
+                            <div class="testimonial-owner">
+                                <figure>
+                                    <img style="height:60px;" src="sauna/assets/images/g1.jpg" alt="khách hàng">
+                                </figure>
+
+                                <div>
+                                    <h4 class="testimonial-title">Mỹ Linh</h4>
+                                    <span>Đà Nẵng</span>
+                                </div>
+                            </div>
+                            <!-- End .testimonial-owner -->
+
+                            <blockquote>
+                                <p>Tại Mayxonghoi24h e đã được tư vấn nhiệt tình và đã mua được phòng xông hơi cho gia đình e cảm ơn Mayxonghoi24h <3</p>
+                            </blockquote>
+                        </div>
+                        <!-- End .testimonial -->
+
+                        <div class="testimonial">
+                            <div class="testimonial-owner">
+                                <figure>
+                                    <img style="height:60px" src="sauna/assets/images/g2.jpg" alt="khách hàng">
+                                </figure>
+
+                                <div>
+                                    <h4 class="testimonial-title">Thanh Tùng</h4>
+                                    <span>Quảng Nam</span>
+                                </div>
+                            </div>
+                            <!-- End .testimonial-owner -->
+
+                            <blockquote>
+                                <p>Tại Mayxonghoi24h có rất nhiều mẫu mã tha hồ chọn sản phẩm thích hợp với doanh nghiệp của mình nhân viên rất dễ thương !</p>
+                            </blockquote>
+                        </div>
+                        <!-- End .testimonial -->
+
+
+                    </div>
+                    <!-- End .testimonials-slider -->
+                </div>
+                <!-- End .container -->
+            </div>
+            <!-- End .testimonials-section -->
 
 
         </main>

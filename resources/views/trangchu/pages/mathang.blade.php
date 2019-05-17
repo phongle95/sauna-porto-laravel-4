@@ -33,8 +33,7 @@
                                     <a href="{{ route('trangchu.chitiet.product',['name'=>str_slug($item->tenSP),'id'=>$item->id,'ma'=>$item->maLoaiSanPham]) }}" class="product-image3">
                                         <img src="upload/{{ $item->img }}" alt="máy xông hơi">
                                     </a>
-                                    <span class="product-label label-sale">-20%</span>
-                                    <span class="product-label label-hot">New</span>
+
                                 </figure>
                                 <div class="product-details">
                                     <div class="ratings-container">
